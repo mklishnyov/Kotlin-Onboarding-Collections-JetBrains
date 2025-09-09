@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TermsProjectSettings">
+    <currentTermsLanguage>en</currentTermsLanguage>
+    <terms>
+      <map>
+        <entry key="en">
+          <value>
+            <map>
+              <entry key="19965809">
+                <value>
+                  <list>
+                    <Term value="FIFO" definition="FIFO is an abbreviation for first in, first out, a method of handling data structures where the first element is processed first and the most recent element is processed last." />
+                    <Term value="queue" definition="Queue is a data structure that follows the FIFO (first in, first out) approach, where the first element added is the first to be processed." />
+                    <Term value="Queue" definition="Queue is a data structure that follows the FIFO (first in, first out) approach, where the first element added is the first to be processed." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="37061867">
+                <value>
+                  <list>
+                    <Term value="generateSequence" definition="In Kotlin, `generateSequence` is a function to create a sequence where each subsequent element is generated based on the provided logic or condition." />
+                    <Term value="sequences" definition="In Kotlin, sequences are lazy collections that generate elements on-the-fly and do not store elements like collections." />
+                    <Term value="sequence" definition="In Kotlin, sequences are lazy collections that generate elements on-the-fly and do not store elements like collections." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="89262588">
+                <value>
+                  <list>
+                    <Term value="FIFO" definition="FIFO stands for First-In, First-Out, a method where the first element added to a queue is the first one to be removed." />
+                    <Term value="LIFO" definition="LIFO stands for Last-In, First-Out, a method where the most recently added element is the first one to be removed." />
+                    <Term value="ArrayDeque" definition="The ArrayDeque class in Kotlin provides constant time performance for inserting and removing items on both ends of the queue, making it suitable for scenarios requiring quick access from both ends." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="243404087">
+                <value>
+                  <list>
+                    <Term value="Maps" definition="Sets of key-value pairs where keys are unique, and each key maps to exactly one value, while values can be duplicated." />
+                    <Term value="maps" definition="Sets of key-value pairs where keys are unique, and each key maps to exactly one value, while values can be duplicated." />
+                    <Term value="Map" definition="Sets of key-value pairs where keys are unique, and each key maps to exactly one value, while values can be duplicated." />
+                    <Term value="map" definition="Sets of key-value pairs where keys are unique, and each key maps to exactly one value, while values can be duplicated." />
+                    <Term value="LinkedHashMap" definition="A doubly linked HashMap implementation in Kotlin that preserves the injection order during iteration and offers O(1) for adding and reading by key." />
+                    <Term value="emptyMap" definition="In Kotlin, emptyMap is an implementation that returns the same singleton instance every time it is called, saving allocations for efficient program execution." />
+                    <Term value="EmptyMap" definition="In Kotlin, emptyMap is an implementation that returns the same singleton instance every time it is called, saving allocations for efficient program execution." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="256199902">
+                <value>
+                  <list>
+                    <Term value="FIFO" definition="FIFO (First-In-First-Out) is a programming approach where the first element added to a queue is the first one to be removed." />
+                    <Term value="LIFO" definition="LIFO (Last-In-First-Out) is a programming approach where the last element added to a stack is the first one to be removed." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="296455338">
+                <value>
+                  <list>
+                    <Term value="toColor" definition="The toColor function in Kotlin converts a string representation of a color to a Color object." />
+                    <Term value="toPhotoCharacters" definition="The toPhotoCharacters function converts elements from a source collection to a PhotoCharacter." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="340395571">
+                <value>
+                  <list>
+                    <Term value="VegetableType" definition="VegetableType is a type used to categorize vegetables, such as VegetableType.Tomato, in the `getTomatoesForSoup` function." />
+                    <Term value="KitchenImpl.put" definition="KitchenImpl.put is a function that puts an item into the kitchen as part of the tomato preparation process." />
+                    <Term value="KitchenImpl.cut" definition="KitchenImpl.cut is a function used to cut elements such as tomatoes in the kitchen during soup preparation." />
+                    <Term value="KitchenImpl.take" definition="KitchenImpl.take is a function that is used to take items, such as cut tomatoes, after they are prepared in the kitchen." />
+                    <Term value="PotImpl.put" definition="PotImpl.put is a function that places prepared items, such as chopped tomatoes, into the pot for cooking." />
+                    <Term value="FridgeImpl" definition="FridgeImpl is a class providing the necessary API to get vegetables like tomatoes from the fridge." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="426992928">
+                <value>
+                  <list>
+                    <Term value="getFruitsForSmoothie" definition="A function that retrieves baskets of all available fruits, places each basket in the kitchen, takes a specified capacity of fruits from each basket, and sorts the fruits by their sugar content." />
+                    <Term value="cookSmoothie" definition="A function that accepts a list of fruits, adds each fruit to the blender, and blends the ingredients together to make a smoothie." />
+                    <Term value="FruitType" definition="An enum class that includes a `sugarContent` property, representing the sugar content of each fruit type." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="437248457">
+                <value>
+                  <list>
+                    <Term value="FridgeImpl" definition="An object that has a mutable list of 'vegetables' to store and offers methods to manage this list." />
+                    <Term value="generateRandomVegetables" definition="A method in 'FridgeImpl' that builds a list of 'Vegetable' entries according to specific rules such as generating random vegetables with random freshness." />
+                    <Term value="refill" definition="A method in 'FridgeImpl' that clears all vegetables from the list, generates new ones using the 'generateRandomVegetables' function, and adds them to the list of 'vegetables'." />
+                    <Term value="Refill" definition="A method in 'FridgeImpl' that clears all vegetables from the list, generates new ones using the 'generateRandomVegetables' function, and adds them to the list of 'vegetables'." />
+                    <Term value="Random.nextBoolean()" definition="A Kotlin function to generate a random boolean value." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="542413460">
+                <value>
+                  <list>
+                    <Term value="LIFO" definition="LIFO is an abbreviation for 'last in, first out', a method of handling data structures in which the last element is processed first and the first element is processed last." />
+                    <Term value="stack" definition="A stack is a data structure that operates on the LIFO (last in, first out) principle, where the last element added is the first one to be removed." />
+                    <Term value="Stack" definition="A stack is a data structure that operates on the LIFO (last in, first out) principle, where the last element added is the first one to be removed." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="587507927">
+                <value>
+                  <list>
+                    <Term value="removeFirstOrNull" definition="removeFirstOrNull is a built-in Kotlin function that removes and returns the first element of a collection or returns `null` if the collection is empty." />
+                    <Term value="removeLastOrNull" definition="removeLastOrNull is a built-in Kotlin function that removes and returns the last element of a collection or returns `null` if the collection is empty." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="592412334">
+                <value>
+                  <list>
+                    <Term value="ArrayDeque" definition="The ArrayDeque class provides constant time performance for inserting and removing items from both ends of the queue, making it suitable for scenarios requiring flexibility in queue or stack operations." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="594681065">
+                <value>
+                  <list>
+                    <Term value="filter" definition="A built-in Kotlin function that retrieves elements from a collection matching a given condition." />
+                    <Term value="Filter" definition="A built-in Kotlin function that retrieves elements from a collection matching a given condition." />
+                    <Term value="Collection&lt;Duck&gt;.deleteDucksWithoutKotlinStuff" definition="A Kotlin function that filters ducks with a 'hasKotlinAttribute' field set to true, applicable to both `List` and `Set`." />
+                    <Term value="filterKeys" definition="A Kotlin function that filters elements in a map based on their keys." />
+                    <Term value="filterValues" definition="A Kotlin function that filters elements in a map based on their values." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="621012111">
+                <value>
+                  <list>
+                    <Term value="List" definition="In Kotlin, a List is a regular collection that contains elements and allows for operations to be performed on all elements at once." />
+                    <Term value="list" definition="In Kotlin, a List is a regular collection that contains elements and allows for operations to be performed on all elements at once." />
+                    <Term value="Sequence" definition="In Kotlin, a Sequence is a collection-like structure that does not contain elements but produces them during iteration, enabling lazy computations." />
+                    <Term value="sequences" definition="In Kotlin, a Sequence is a collection-like structure that does not contain elements but produces them during iteration, enabling lazy computations." />
+                    <Term value="Sequences" definition="In Kotlin, a Sequence is a collection-like structure that does not contain elements but produces them during iteration, enabling lazy computations." />
+                    <Term value="sequence" definition="In Kotlin, a Sequence is a collection-like structure that does not contain elements but produces them during iteration, enabling lazy computations." />
+                    <Term value="lazy computing" definition="Lazy computing refers to a computation technique where values are produced on demand and not all at once, as used in Kotlin sequences." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="925116856">
+                <value>
+                  <list>
+                    <Term value="API" definition="A set of classes and functions that provide predefined operations and functionalities." />
+                    <Term value="api" definition="A set of classes and functions that provide predefined operations and functionalities." />
+                    <Term value="models" definition="Representations of all items in the kitchen, divided into categories such as food, storage, and cooking." />
+                    <Term value="interfaces" definition="Abstract types in programming that define a set of methods to be implemented by other classes." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="984132488">
+                <value>
+                  <list>
+                    <Term value="generateRandomDuck" definition="A function from the `Duck.kt` file that gets all values from the `Duck` class and returns a random duck from this list." />
+                    <Term value="generateListOfDucks" definition="A function from the `GameModeService` class to generate a new list with `MAX_NUMBER_OF_DUCKS` random ducks using the `generateRandomDuck` function." />
+                    <Term value="MAX_NUMBER_OF_DUCKS" definition="A predefined variable in the `GameUtil.kt` file that represents the maximum number of ducks in a generated list." />
+                    <Term value="entries" definition="A built-in property in Kotlin that retrieves all values from an enum class." />
+                    <Term value="random" definition="A built-in Kotlin function that extracts a random value from a list." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1056877617">
+                <value>
+                  <list>
+                    <Term value="Partition" definition="A built-in Kotlin function that divides a collection into two parts based on a given predicate or condition." />
+                    <Term value="partition" definition="A built-in Kotlin function that divides a collection into two parts based on a given predicate or condition." />
+                    <Term value="Collection&lt;Duck&gt;.divideDucksIntoKotlinAndNonKotlin" definition="A Kotlin extension function to separate ducks with a Kotlin attribute from those without, applicable to List and Set collections." />
+                    <Term value="hasKotlinAttribute" definition="A field in the Duck object that determines whether a duck has a Kotlin-related attribute (true or false)." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1267200805">
+                <value>
+                  <list>
+                    <Term value="groupPhotosByHairAndHat" definition="A function that groups photos by hair type and then by the presence of hats within each hair type group, returning a flattened list of all grouped photos." />
+                    <Term value="flattened" definition="An operation in programming used to reduce a hierarchical or nested structure into a single, flat list or sequence." />
+                    <Term value="flatten" definition="An operation in programming used to reduce a hierarchical or nested structure into a single, flat list or sequence." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1350151427">
+                <value>
+                  <list>
+                    <Term value="extension functions" definition="Extension functions allow you to extend any class with your own functionality without inheriting from it or using design patterns." />
+                    <Term value="toMutableList" definition="The 'toMutableList' function converts an immutable list to a mutable list." />
+                    <Term value="toMutableSet" definition="The 'toMutableSet' function converts an immutable set to a mutable set." />
+                    <Term value="toMutableMap" definition="The 'toMutableMap' function converts an immutable map to a mutable map." />
+                    <Term value="removeAt" definition="The 'removeAt' function removes an element from a mutable list by index." />
+                    <Term value="remove" definition="The 'remove' function removes an element directly from a mutable list, set, or map." />
+                    <Term value="Remove" definition="The 'remove' function removes an element directly from a mutable list, set, or map." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1393630375">
+                <value>
+                  <list>
+                    <Term value="collection" definition="A collection usually contains a number of objects (this number may also be zero) of the same type, referred to as elements or items." />
+                    <Term value="collections" definition="A collection usually contains a number of objects (this number may also be zero) of the same type, referred to as elements or items." />
+                    <Term value="Lists" definition="Lists are ordered collections with access to elements by indices, where the index of the first element is zero, and elements can occur more than once." />
+                    <Term value="list" definition="Lists are ordered collections with access to elements by indices, where the index of the first element is zero, and elements can occur more than once." />
+                    <Term value="List" definition="Lists are ordered collections with access to elements by indices, where the index of the first element is zero, and elements can occur more than once." />
+                    <Term value="ArrayList" definition="An array-based implementation of the List interface, efficient for reading and generally adding items but expensive for inserting or removing objects." />
+                    <Term value="LinkedList" definition="A linked list implementation where nodes are connected using pointers, efficient for insertion and deletion but requires traversal to find nodes by position." />
+                    <Term value="emptyList" definition="A Kotlin function that returns the same singleton instance every time, enabling allocation-free and efficient list creation." />
+                    <Term value="EmptyList" definition="A Kotlin function that returns the same singleton instance every time, enabling allocation-free and efficient list creation." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1429063441">
+                <value>
+                  <list>
+                    <Term value="shuffle" definition="A built-in Kotlin function used to shuffle a list of elements, enabling randomization of the list's ordering." />
+                    <Term value="shuffled" definition="A built-in Kotlin function used to shuffle a list of elements, enabling randomization of the list's ordering." />
+                    <Term value="take" definition="A built-in Kotlin function used to take the first N elements from a list, based on the list's inherent order." />
+                    <Term value="toSet" definition="A built-in Kotlin function used to convert a list into a set, ensuring unique elements are retained." />
+                    <Term value="MAX_NUMBER_OF_DUCKS" definition="A predefined variable in the `GameUtil.kt` file, used to set the maximum number of ducks in the set of random ducks." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1469688753">
+                <value>
+                  <list>
+                    <Term value="Sets" definition="Sets are collections of unique elements, representing a mathematical abstraction of a set: a group of objects without duplicates." />
+                    <Term value="Set" definition="Sets are collections of unique elements, representing a mathematical abstraction of a set: a group of objects without duplicates." />
+                    <Term value="sets" definition="Sets are collections of unique elements, representing a mathematical abstraction of a set: a group of objects without duplicates." />
+                    <Term value="set" definition="Sets are collections of unique elements, representing a mathematical abstraction of a set: a group of objects without duplicates." />
+                    <Term value="LinkedHashSet" definition="LinkedHashSet is a set implementation in Kotlin that sorts elements in the set by default and provides efficient element access using the contains operation." />
+                    <Term value="emptySet" definition="In Kotlin, emptySet is a function that returns a singleton instance of an empty set, enabling efficient, allocation-free usage." />
+                    <Term value="EmptySet" definition="In Kotlin, emptySet is a function that returns a singleton instance of an empty set, enabling efficient, allocation-free usage." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1565297444">
+                <value>
+                  <list>
+                    <Term value="list" definition="A collection type in Kotlin where data is stored in an ordered manner and operations are applied on each item." />
+                    <Term value="sequence" definition="A Kotlin collection type that allows operations to be applied lazily, processing items one by one and improving performance when handling large data sets." />
+                    <Term value="extension function" definition="A Kotlin feature that allows functions to be added to existing classes without modifying their source code." />
+                    <Term value="group by" definition="A Kotlin operation that groups elements of a collection by a given key." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1592452177">
+                <value>
+                  <list>
+                    <Term value="groupBy" definition="A Kotlin function that groups elements of a collection by a key returned from a keySelector function, producing a map where each key is associated with a list of corresponding elements." />
+                    <Term value="keySelector" definition="A function applied to each element of the original collection in Kotlin's groupBy to determine the key for the resulting map." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1648489383">
+                <value>
+                  <list>
+                    <Term value="List" definition="A collection that represents an ordered group of elements, allowing duplicates." />
+                    <Term value="Set" definition="A collection that contains unique elements and does not allow duplicates." />
+                    <Term value="Map" definition="A collection of key-value pairs where keys are unique and each key maps to a single value." />
+                    <Term value="filter" definition="A built-in function in Kotlin to retrieve elements from a collection that satisfy a specific condition." />
+                    <Term value="partition" definition="A built-in function in Kotlin to divide a collection into two based on a given predicate." />
+                    <Term value="shuffled" definition="A built-in function in Kotlin to return a randomly shuffled version of the collection." />
+                    <Term value="sort" definition="A built-in function in Kotlin to arrange the elements of a collection in a specified order, typically ascending or descending." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1651896805">
+                <value>
+                  <list>
+                    <Term value="sortedBy" definition="`sortedBy` is a Kotlin function that sorts a list by the returned value of the passed function." />
+                    <Term value="sortedByDescending" definition="`sortedByDescending` is a Kotlin function that sorts a list in descending order by the returned value of the passed function." />
+                    <Term value="sum" definition="`sum` is a Kotlin function that calculates the sum of elements in a list." />
+                    <Term value="sumOf" definition="`sumOf` is a Kotlin function that calculates the sum of elements in a list after applying a transformation to each element." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1741761741">
+                <value>
+                  <list>
+                    <Term value="generateSpices" definition="A function in Kotlin that generates a sequence of random spices." />
+                    <Term value="addSpices" definition="A function in Kotlin that accepts a sequence of spices and processes each item by fetching it from the shelf and putting it into the pot." />
+                    <Term value="GameEnviroment.kt" definition="A file in the application containing instances of all possible objects such as 'shelf' for 'ShelfImpl', used to interact with the game's API." />
+                    <Term value="ShelfImpl.getSpice" definition="A function in 'ShelfImpl' used to get a specific spice from the shelf." />
+                    <Term value="PotImpl.put" definition="A function in 'PotImpl' used to put a spice into the pot." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1809312295">
+                <value>
+                  <list>
+                    <Term value="mutable collection" definition="In Kotlin, a mutable collection allows modification of elements, supporting methods like 'add' and 'remove'." />
+                    <Term value="mutable collections" definition="In Kotlin, a mutable collection allows modification of elements, supporting methods like 'add' and 'remove'." />
+                    <Term value="listOf()" definition="A Kotlin built-in function to create a read-only list collection." />
+                    <Term value="toMutableList()" definition="A Kotlin method to transform a read-only list into a mutable list." />
+                    <Term value="toMutableSet()" definition="A Kotlin method to transform a read-only set into a mutable set." />
+                    <Term value="toMutableMap()" definition="A Kotlin method to transform a read-only map into a mutable map." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1904804740">
+                <value>
+                  <list>
+                    <Term value="associateWith" definition="A built-in Kotlin function used to associate each item from a collection with a value and create a map." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1915926112">
+                <value>
+                  <list>
+                    <Term value="client-server architecture" definition="Client-server architecture refers to a software design model where a client (frontend) communicates with a server (backend) to exchange data and perform tasks." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2132312403">
+                <value>
+                  <list>
+                    <Term value="entries" definition="A built-in property in Kotlin's enum class to retrieve all constants of an enum." />
+                    <Term value="entry" definition="A built-in property in Kotlin's enum class to retrieve all constants of an enum." />
+                    <Term value="names" definition="A property in Kotlin enum classes that provides the name of the enum constant as a string." />
+                    <Term value="name" definition="A property in Kotlin enum classes that provides the name of the enum constant as a string." />
+                    <Term value="Name" definition="A property in Kotlin enum classes that provides the name of the enum constant as a string." />
+                    <Term value="lowercase" definition="A built-in function in Kotlin to convert a string to lowercase." />
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+      </map>
+    </terms>
+    <termsVersions>
+      <map>
+        <entry key="en" value="33" />
+      </map>
+    </termsVersions>
+  </component>
+</project>
