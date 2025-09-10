@@ -35,3 +35,10 @@ enum class Accessory(val price: Int = 0) {
 fun generateRandomDuck(): Duck = Duck.entries.random()
 
 fun Duck.getDescription() = this.customName ?: this.name
+
+fun Collection<Duck>.getNewRandomDuck(): Duck {
+    val available = Duck.entries - this
+    require(available.isNotEmpty()) { "No new ducks available" }
+    return available.random()
+}
+

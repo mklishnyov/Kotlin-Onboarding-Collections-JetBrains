@@ -1,47 +1,32 @@
 package org.jetbrains.kotlin.course.duck.shop.functions.change
 
 import org.jetbrains.kotlin.course.duck.shop.duck.Duck
+import org.jetbrains.kotlin.course.duck.shop.duck.generateRandomDuck
 import org.jetbrains.kotlin.course.duck.shop.duck.getDescription
+import org.jetbrains.kotlin.course.duck.shop.duck.getNewRandomDuck
 import org.springframework.stereotype.Service
 
 @Service
-class GameChangeFunctionsService  {
-    fun MutableList<Duck>.addRandomDuck(): Duck {
-        val rnd = Duck.entries.random()
-        this.add(rnd)
-        return rnd
-    }
+class GameChangeFunctionsService {
+    fun MutableList<Duck>.addRandomDuck(): Duck =
+        this.getNewRandomDuck().also { this.add(it) }
 
-    fun MutableSet<Duck>.addRandomDuck(): Duck {
-        var rnd = Duck.entries.random()
-        while (rnd in this) rnd = Duck.entries.random()
-        this.add(rnd)
-        return rnd
-    }
+    fun MutableSet<Duck>.addRandomDuck(): Duck =
+        this.getNewRandomDuck().also { this.add(it) }
 
-    fun MutableMap<Duck, String>.addRandomDuck(): Pair<Duck, String>? {
-        val rnd = Duck.entries.random()
-        while (rnd !in this.keys) {
-            rnd = Duck.entries.random()
-        }
-        return rnd to rnd.getDescription()
-    }
+    fun MutableMap<Duck, String>.addRandomDuck(): Pair<Duck, String> =
+        this.keys.getNewRandomDuck()
+            .let { it to it.getDescription() }
+            .also { (duck, description) ->
+                this.toMutableMap()[duck] = description
+            }
 
-    fun List<Duck>.removeRandomDuck(): List<Duck> {
-        val mList = this.toMutableList()
-        mList.removeAt(mList.indices.random())
-        return mList.toList()
-    }
+    fun List<Duck>.removeRandomDuck(): List<Duck> =
+        this.toMutableList().apply { removeAt(indices.random()) }.toList()
 
-    fun Set<Duck>.removeRandomDuck(): Set<Duck> {
-        val mSet = this.toMutableSet()
-        mSet.remove(mSet.random())
-        return mSet
-    }
+    fun Set<Duck>.removeRandomDuck(): Set<Duck> =
+        this.toMutableSet().apply { remove(random()) }
 
-    fun Map<Duck, String>.removeRandomDuck(): Map<Duck, String> {
-        val mMap = this.toMutableMap()
-        mMap.remove(mMap.keys.random())
-        return mMap.toMap()
-    }
+    fun Map<Duck, String>.removeRandomDuck(): Map<Duck, String> =
+        this.toMutableMap().apply { remove(keys.random()) }.toMap()
 }
