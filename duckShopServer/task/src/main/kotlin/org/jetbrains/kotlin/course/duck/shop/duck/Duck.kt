@@ -32,6 +32,6 @@ enum class Accessory(val price: Int = 0) {
     ;
 }
 
-fun generateRandomDuck(): Duck = TODO("Not implemented yet")
+fun generateRandomDuck(): Duck = Duck.entries.random()
 
 fun Duck.getDescription() = this.customName ?: this.name
