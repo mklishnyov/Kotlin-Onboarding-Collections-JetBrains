@@ -197,5 +197,16 @@ files:
   - name: src/main/kotlin/org/jetbrains/kotlin/course/old/school/photo/JsPhoto.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: "Try to invoke function toPhotoCharacters with argument TestMethod(name=toPhotoCharacters,\
+    \ returnType=TestKotlinType(type=List, abbreviation=org.jetbrains.kotlin.course.old.school.photo.PhotoCharacter,\
+    \ isNullable=false, params=[], possibleBounds=[]), arguments=[TestVariable(name=this,\
+    \ javaType=Iterable, value=null, kotlinType=TestKotlinType(type=Iterable, abbreviation=String,\
+    \ isNullable=false, params=[], possibleBounds=[]), visibility=null, mutability=null,\
+    \ isInPrimaryConstructor=false, isStatic=false, isConst=false)], returnTypeJava=null,\
+    \ visibility=PRIVATE, hasGeneratedPartInName=false), but got an unexpected error!"
+  time: "Thu, 11 Sep 2025 07:22:24 UTC"
+  expected: "true"
+  actual: "false"
 record: -1

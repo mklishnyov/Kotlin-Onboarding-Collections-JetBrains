@@ -6,11 +6,15 @@ import org.springframework.stereotype.Service
 
 @Service
 class GameFunctionsService {
-    fun getAllPossibleColors(): List<String> = TODO("Not implemented yet")
+    fun getAllPossibleColors(): List<String> = Color.entries.map { it.name.lowercase() }
 
-    private fun String.toColor(): Color = TODO("Not implemented yet")
+    private fun String.toColor(): Color = Color.valueOf(this
+        .lowercase().replaceFirstChar { it.titlecase() })
 
-    private fun Iterable<String>.toPhotoCharacters(): List<PhotoCharacter> = TODO("Not implemented yet")
+    private fun Iterable<String>.toPhotoCharacters(): List<PhotoCharacter> {
+        val a = this.toMutableList()
+        a.map { PhotoCharacter }
+    }
 
     fun Iterable<String>.findPhoto(colorStr: String): PhotoCharacter? = TODO("Not implemented yet")
 
