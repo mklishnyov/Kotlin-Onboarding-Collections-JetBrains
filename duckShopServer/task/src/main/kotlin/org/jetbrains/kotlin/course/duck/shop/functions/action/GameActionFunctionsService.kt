@@ -6,13 +6,14 @@ import org.springframework.stereotype.Service
 @Service
 class GameActionFunctionsService {
 
-    fun List<Duck>.shuffleDucks(): List<Duck> = TODO("Not implemented yet")
+    fun List<Duck>.shuffleDucks(): List<Duck> = this.shuffled()
 
-    fun List<Duck>.sortDucks(): List<Duck> = TODO("Not implemented yet")
+    fun List<Duck>.sortDucks(): List<Duck> = this.sortedByDescending { duck ->  duck.accessories.
+        sumOf { if (duck.hasKotlinAttribute) it.price * 100 else it.price } }
 
-    fun Collection<Duck>.deleteDucksWithoutKotlinStuff(): Collection<Duck> = TODO("Not implemented yet")
+    fun Collection<Duck>.deleteDucksWithoutKotlinStuff(): Collection<Duck> = this.filter { it.hasKotlinAttribute }
 
-    fun Map<Duck, String>.deleteDucksWithoutKotlinStuff(): Map<Duck, String> = TODO("Not implemented yet")
+    fun Map<Duck, String>.deleteDucksWithoutKotlinStuff(): Map<Duck, String> = this.filterKeys { it.hasKotlinAttribute }
 
-    fun Collection<Duck>.divideDucksIntoKotlinAndNonKotlin(): Pair<Collection<Duck>, Collection<Duck>> = TODO("Not implemented yet")
+    fun Collection<Duck>.divideDucksIntoKotlinAndNonKotlin(): Pair<Collection<Duck>, Collection<Duck>> = this.partition { it.hasKotlinAttribute }
 }

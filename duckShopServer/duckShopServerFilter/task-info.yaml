@@ -215,5 +215,8 @@ files:
   - name: src/main/kotlin/org/jetbrains/kotlin/course/duck/shop/duck/JsDuck.kt
     visible: false
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 11 Sep 2025 04:51:11 UTC"
+record: 13
