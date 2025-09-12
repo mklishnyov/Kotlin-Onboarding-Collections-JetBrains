@@ -197,5 +197,8 @@ files:
   - name: src/main/kotlin/org/jetbrains/kotlin/course/old/school/photo/JsPhoto.kt
     visible: false
     learner_created: false
-status: Unchecked
-record: -1
+status: Failed
+feedback:
+  message: Compilation Failed
+  time: "Fri, 12 Sep 2025 12:25:54 UTC"
+record: 24
