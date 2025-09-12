@@ -197,5 +197,8 @@ files:
   - name: src/main/kotlin/org/jetbrains/kotlin/course/old/school/photo/JsPhoto.kt
     visible: false
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 12 Sep 2025 06:31:57 UTC"
+record: 23

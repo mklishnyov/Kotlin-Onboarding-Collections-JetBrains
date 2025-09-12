@@ -176,6 +176,6 @@ files:
   - name: src/main/kotlin/org/jetbrains/kotlin/course/old/school/photo/JsPhoto.kt
     visible: false
     learner_created: false
-status: Unchecked
-record: -1
+status: Solved
+record: 22
 post_submission_on_open: true

@@ -20,13 +20,17 @@ class GameFunctionsResource(val service: GameFunctionsService) {
 
     @CrossOrigin
     @PostMapping("/find")
-    fun findPhoto(@RequestBody body: Body): String? = TODO("Not implemented yet")
-
+    fun findPhoto(@RequestBody body: Body): String? = with(service) {
+        body.names.findPhoto(body.color)?.name?.lowercase()
+    }
     @CrossOrigin
     @PostMapping("/groupByByColor")
-    fun groupByPhotosByColor(@RequestBody names: List<String>): List<String> = TODO("Not implemented yet")
-
+    fun groupByPhotosByColor(@RequestBody names: List<String>): List<String> = with(service) {
+        names.groupPhotosByColor().map { it.name }
+    }
     @CrossOrigin
     @PostMapping("/groupByPhotosByHairAndHat")
-    fun groupByPhotosByHairAndHat(@RequestBody names: List<String>): List<String> = TODO("Not implemented yet")
+    fun groupByPhotosByHairAndHat(@RequestBody names: List<String>): List<String> = with(service) {
+        names.groupPhotosByHairAndHat().map { it.name }
+    }
 }
