@@ -9,8 +9,16 @@ class GameService {
     companion object {
         private const val MAX_CAPACITY = 16
     }
+    val commands = ArrayDeque<Command>()
 
-    fun addCommand(command: Command): Boolean = TODO("Not implemented yet")
+    fun addCommand(command: Command) = if (commands.size < MAX_CAPACITY) {
+        commands.add(command)
+    } else {
+        false
+    }
 
-    fun getCommand(mode: Mode): Command? = TODO("Not implemented yet")
+    fun getCommand(mode: Mode): Command? = when(mode) {
+        Mode.Queue -> commands.removeFirstOrNull()
+        Mode.Stack -> commands.removeLastOrNull()
+    }
 }

@@ -181,4 +181,4 @@ additional_files:
   - name: settings.gradle.kts
 mode: Study
 feedback_link: https://plugins.jetbrains.com/plugin/23369-kotlin-onboarding-collections/reviews
-yaml_version: 4
+yaml_version: 5
