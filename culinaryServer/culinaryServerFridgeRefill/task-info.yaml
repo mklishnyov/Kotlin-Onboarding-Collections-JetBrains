@@ -103,5 +103,27 @@ files:
   - name: src/main/resources/static/static/js/main.2934fd44.chunk.js
     visible: true
     learner_created: false
-status: Unchecked
-record: -1
+  - name: src/main/resources/static/robots.txt
+    visible: true
+    learner_created: true
+  - name: src/main/resources/static/asset-manifest.json
+    visible: true
+    learner_created: true
+  - name: src/main/resources/static/manifest.json
+    visible: true
+    learner_created: true
+  - name: src/main/resources/static/favicon.ico
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/main/resources/static/service-worker.js
+    visible: true
+    learner_created: true
+  - name: src/main/resources/static/index.html
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 15 Sep 2025 04:59:54 UTC"
+record: 36

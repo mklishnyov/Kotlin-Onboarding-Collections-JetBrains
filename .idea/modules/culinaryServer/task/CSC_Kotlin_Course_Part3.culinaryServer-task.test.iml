@@ -43,7 +43,9 @@
     <output-test url="file://$MODULE_DIR$/../../../../culinaryServer/task/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../culinaryServer/task/src/test" />
-    <content url="file://$MODULE_DIR$/../../../../culinaryServer/task/test" />
+    <content url="file://$MODULE_DIR$/../../../../culinaryServer/task/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../culinaryServer/task/test" isTestSource="true" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="CSC_Kotlin_Course_Part3.culinaryServer-task.main" />

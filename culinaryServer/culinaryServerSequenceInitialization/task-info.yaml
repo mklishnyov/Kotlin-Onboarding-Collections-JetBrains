@@ -97,6 +97,25 @@ files:
   - name: src/main/resources/static/precache-manifest.57de0f1ef141f1222d900c3dbd9fb46b.js
     visible: true
     learner_created: false
-status: Unchecked
+  - name: src/main/resources/static/robots.txt
+    visible: true
+    learner_created: true
+  - name: src/main/resources/static/asset-manifest.json
+    visible: true
+    learner_created: true
+  - name: src/main/resources/static/manifest.json
+    visible: true
+    learner_created: true
+  - name: src/main/resources/static/favicon.ico
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/main/resources/static/service-worker.js
+    visible: true
+    learner_created: true
+  - name: src/main/resources/static/index.html
+    visible: true
+    learner_created: true
+status: Solved
 record: -1
 post_submission_on_open: true

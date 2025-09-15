@@ -16,11 +16,18 @@ data object FridgeImpl : Fridge {
     val vegetables: MutableList<Vegetable> = mutableListOf()
 
     private fun generateRandomVegetables(): List<Vegetable> {
-        TODO("Not implemented yet")
+        val generatedVegetables = List(RANDOM_VEGETABLES_NUMBER) {
+            Vegetable(VegetableType.entries.random(), Random.nextBoolean())
+        }
+        val generatedFreshVegetables = List(RANDOM_FRESH_VEGETABLES_NUMBER) {
+            Vegetable(VegetableType.entries.random(), true)
+        }
+        return generatedVegetables + generatedFreshVegetables
     }
 
     fun refill() {
-        TODO("Not implemented yet")
+        vegetables.clear()
+        generateRandomVegetables().forEach { vegetables.add(it) }
     }
 
     override fun getVegetable(what: VegetableType): Vegetable {
