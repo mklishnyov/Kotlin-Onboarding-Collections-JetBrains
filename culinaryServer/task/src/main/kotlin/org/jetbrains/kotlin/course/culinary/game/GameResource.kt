@@ -89,5 +89,5 @@ class CookingFunction(val service: CookingService) {
 
     @CrossOrigin
     @GetMapping("/current-task")
-    fun getCurrentTask(): String = Task.SOUP.toString()
+    fun getCurrentTask(): String = Task.SMOOTHIE.toString()
 }
